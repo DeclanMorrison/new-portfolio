@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200|Roboto+Slab|Roboto:100,300,700|Roboto+Condensed');
+
+body{
+    background-color: #48ACF0;
+    cursor: default;
+}
+
+.title{
+    width: 100vw;
+    position: fixed;
+    top: 40vh;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14.1vw;
+
+    white-space: nowrap;
+    z-index: 100;
+
+    color: #F7E651;
+
+    transition: 3s ease;
+    -moz-transition: 3s ease;
+    -webkit-transition: 3s ease;
+
+}
+
+.title-2{
+    top: 50vh;
+    font-size: 15vw;
+}
+
+.line{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 5s ease;
+    -moz-transition: 5s ease;
+    -webkit-transition: 5s ease;
+
+    width: 100%;
+    height: 105%;
+    background-color: #F7E651;
+    z-index: 102;
+}
+
+.line-1{
+    top: 55%;
+    height: 7px;
+}
+
+.line-2{
+    width: 88.7vw;
+}
+
+.sub-title{
+    width: 100vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3vw;
+    letter-spacing: .58vw;
+    
+    position: fixed;
+    top: 60vh;
+    left: 50.2%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    white-space: nowrap;
+    text-align: center;
+    z-index: 101;
+
+    color: #F7E651;
+    
+}
+
+.cover{
+    background-color: #ff474d;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+}
+
+.cover-2{
+    background-color: #48ACF0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 101vw;
+    z-index: 100;
+
+    transition: 5s ease;
+    -moz-transition: 5s ease;
+    -webkit-transition: 5s ease;
+}
+
+.cover-2-1{
+    background-color: #48ACF0;
+    left: 0vw;
+}
+
+.body{
+    line-height: 4vw;
+    color: #F7E651;
+    font-family: 'Roboto';
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+i{
+    color: #F7E651;
+}
+
+.projects{
+    
+
+    color: #F7E651;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Roboto';
+}
+
+.header{
+    text-align: center;
+
+    color: #F7E651;
+    font-family: 'Roboto';
+    font-size: 4vw;
+    font-weight: 700;
+    margin-top: -5%;
+}
+
+.bg{
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+}
+
+.project{
+    margin-top: 20%;
+}
+
+.proj{
+    font-family: 'Roboto Slab';
+    font-size: 3vw;
+}
+
+.thumbnail{
+    position: relative;
+    clip: rect(0px,60px,200px,0px);
+}
+
+.desc{
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+}
+
+.hide{
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
